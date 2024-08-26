@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/base.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="inner-wrap">
+      <div class="inner-logo">
+        <a href="#">
+          <img src="./assets/image/logo.png" alt="logo">
+          <span>EMPLOYEE TASK</span>
+        </a>
+      </div>
+      <div class="inner-menu">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+          <li>
+            <a href="../login.html">Admin</a>
+          </li>
+        </ul>
+      </div>
+      <div class="inner-social">
+        <ul>
+          <li>
+            <a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="inner-icon-mobi">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- Section One -->
+  <div class="section-one">
+    <div class="container">
+      <div class="inner-wrap">
+        <div class="inner-title">
+          <b>CONTACT </b>
+        </div>
+        <p class="inner-desc" style="letter-spacing: 3px;">
+          Add Some Short Description
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- End Section One -->
+
+
+  <!-- Start CSS Section Two -->
+  <style>
+    .contact-section {
+      text-align: center;
+      padding: 50px 0;
+      background-color: #ffffff;
+    }
+
+    .contact-section h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .contact-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+    }
+
+    .contact-info {
+      background-color: #1a1a1a;
+      color: #fff;
+      padding: 20px;
+      width: 500px;
+      height: 40vh;
+      border-radius: 5px;
+      text-align: left;
+      margin-right: 20px;
+    }
+
+    .contact-info h3 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #fff;
+    }
+
+    .info-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .icon {
+      font-size: 24px;
+      color: #00ff00;
+      width: 40px;
+      text-align: center;
+      margin-right: 10px;
+    }
+
+    .details h4 {
+      margin: 0;
+      font-size: 16px;
+      color: #00ff00;
+    }
+
+    .details p {
+      margin: 0;
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    .social-media {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+
+    .social-media a {
+      color: #fff;
+      font-size: 20px;
+      text-decoration: none;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: #333;
+    }
+
+    .social-media a:hover {
+      background-color: #00ff00;
+    }
+
+    .contact-image img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    .contact-image {
+      width: 500px;
+      height: 40vh;
+      background-image: url('./assets/image/contact-us-banner.jpg');
+      background-size: cover;
+      /* Đảm bảo hình ảnh không vượt quá kích thước */
+      background-position: center;
+      background-repeat: no-repeat;
+      border-radius: 5px;
+    }
+
+    @media (max-width: 768px) {
+      .contact-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .contact-info {
+        width: 90%;
+        margin-bottom: 20px;
+      }
+
+      .contact-image img {
+        width: 90%;
+        max-width: 100%;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .contact-section h2 {
+        font-size: 28px;
+      }
+
+      .contact-info h3 {
+        font-size: 20px;
+      }
+
+      .icon {
+        font-size: 20px;
+        width: 30px;
+      }
+
+      .details h4 {
+        font-size: 14px;
+      }
+
+      .details p {
+        font-size: 12px;
+      }
+
+      .social-media a {
+        font-size: 18px;
+      }
+    }
+  </style>
+  <!-- End CSS Section Two -->
+
+
+  <!-- Section Two -->
+  <div class="contact-section">
+    <h2>Contact Us</h2>
+    <div class="contact-container">
+      <div class="contact-info">
+        <h3>Contact Info</h3>
+        <div class="info-item">
+          <div class="icon">
+            <i class="fas fa-phone-alt"></i>
+          </div>
+          <div class="details">
+            <h4>Telephone</h4>
+            <p>+84973526118</p>
+            <p>+84326389660</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="details">
+            <h4>Mail</h4>
+            <p>letuandat_t66@hus.edu.vn</p>
+            <p>ledinhquangminh_t66@hus.edu.vn</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div class="details">
+            <h4>Location</h4>
+            <p>25 P.Vũ Ngọc Phan, Láng Hạ, Đống Đa, Hà Nội</p>
+          </div>
+        </div>
+        <div class="social-media">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fas fa-rss"></i></a>
+        </div>
+      </div>
+      <div class="contact-image">
+
+      </div>
+    </div>
+  </div>
+  <!-- End Section Two -->
+
+
+  <!-- Map -->
+  <iframe <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.4731868291237!2d105.8087071760955!3d21.013744480631836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab6229494ac5%3A0x5ed48d45a299cd!2zVmnhu4duIEPDtG5nIG5naOG7hyBC4buZIEPDtG5nIFRoxrDGoW5n!5e0!3m2!1svi!2s!4v1724512796066!5m2!1svi!2s"
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <!-- End Map -->
+
+  <!-- Footer -->
+  <footer>
+    <div class="inner-title">© Copyright 2024 X - All Rights Reserved</div>
+  </footer>
+  <!-- End Footer -->
+
+
+</body>
+
+</html>
